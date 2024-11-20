@@ -16,7 +16,7 @@ Este projeto permite buscar informações de usuários e seus repositórios no G
 ## Como Executar o Projeto
 1. Faça o download ou clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/LeandroAzevedo-1/fetch-github-api.git
 
 ## Como Funciona
 - Insira o nome de um usuário do GitHub no campo de busca.
