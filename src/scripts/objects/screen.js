@@ -22,7 +22,7 @@ const screen = {
 
     }, 
     renderNotFound(){
-        this.userProfile.innerHTML = `<h4 class="error">Usuário não encontrado.</4>`
+        this.userProfile.innerHTML = `<h4 class="error">Usuário não encontrado.</h4>`
     }
 }
 
