@@ -14,7 +14,9 @@ Este projeto permite buscar informações de usuários e seus repositórios no G
 - **JavaScript**: Implementação da lógica, manipulação do DOM e uso da Fetch API para realizar requisições.
 
 ## Como Executar o Projeto
-1. Faça o download ou clone este repositório:
+#### Git Pages
+1. <a href="https://leandroazevedo-1.github.io/fetch-github-api/" target="_blank">Clique aqui.</a> <br><br>
+2. Você também pode fazer o download ou clone este repositório:
    ```bash
    git clone https://github.com/LeandroAzevedo-1/fetch-github-api.git
 
@@ -27,5 +29,4 @@ Este projeto permite buscar informações de usuários e seus repositórios no G
 ## Exemplo de Uso
 - Busca por usuário: Digite o nome e veja as informações sobre o usuário oficial do GitHub.
 
-## Git Pages
-<a href="https://leandroazevedo-1.github.io/fetch-github-api/" target="_blank">Clique aqui e veja como ficou o projeto.</a>
+
