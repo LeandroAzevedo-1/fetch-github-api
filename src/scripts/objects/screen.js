@@ -49,7 +49,23 @@ const screen = {
                                                  <h2>Repositórios</h2>
                                                  <ul>${repositoriesItens}</ul>
                                              </div>`;
+    }  
+    // 
+    let userActivity = "";
+    user.activities.forEach((activity) => {
+      userActivity += `<div>
+                          <a href="#"><strong>${activity.repo.name}:</strong>${activity.type}</a>
+                       </div>`;
+    });
+
+    if (userActivity.length > 0) {
+      this.userProfile.innerHTML += `<div class="activities section">
+                                        <hr>
+                                        <h2>Atividades</h2>
+                                        <ul>${userActivity}</ul>
+                                      </div>`;
     }
+    
   },
   renderNotFound() {
     this.userProfile.innerHTML = `<h4 class="error">Usuário não encontrado.</h4>`;

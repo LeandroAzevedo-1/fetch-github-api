@@ -4,8 +4,11 @@ const user = {
     name:'',
     bio: '',
     userName:'',
+    followers : '',
+    following : '',
     repositories: [],
-    
+    activities: [],
+
     setInfo(gitHubUser){
         this.avatarUrl = gitHubUser.avatar_url
         this.name = gitHubUser.name
@@ -17,6 +20,10 @@ const user = {
     
     setRepositories(repositories){
         this.repositories = repositories
+    },
+    
+    setActivities(activities) {
+        this.activities = activities;
     }
 }
 

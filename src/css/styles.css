@@ -114,7 +114,6 @@ main {
   font-weight: 400;
   line-height: 23px;
 }
-/*  */
 .container .profile-data .info .follow{
   display: flex;
   align-items: center;
@@ -151,11 +150,33 @@ main {
   background-color: #a24fa5;
  
 }
+/* Activities */
 
+.container .profile-data .activities{
+  width: 100%;
+  
+}
+.container .profile-data .activities h2 {
+  font-weight: 700;
+  margin: 10px;
+}
+.container .profile-data .activities ul{
+  text-align: start;
+  margin-left: 30px;
+  line-height: 25px;
+}
+.container .profile-data .activities ul a{
+  font-weight: 700;
+  margin-right: 10px;
+}
+.container .profile-data .activities ul strong{
+  margin-right: 5px;
+  font-weight: 700;
+
+}
 .error {
   color: #ff0000;
 }
-/* REPOSITORIES */
 
 .container .profile-data .repositories h2{
   margin-bottom: 30px;
@@ -192,44 +213,3 @@ main {
   display: none;
 }
 
-@media (max-width: 1280px) {
-  .container {
-    flex-direction: column;
-    width: 90%;
-    border-radius: 20px;
-  }
-
-  .container header {
-    width: 100%;
-  }
-
-  .container header h1 {
-    font-size: 24px;
-    text-align: center;
-  }
-}
-
-@media (max-width: 768px) {
-  .container header #input-search,
-  .container header #btn-search
-  {
-    width: 100%;
-  }
-}
-
-@media (max-width: 425px) {
-  main {
-    padding: 15% 0;    
-  }
-
-  .container .profile-data .info img{
-    margin-bottom: 20px;
-  }
-
-  .container .profile-data .info img,
-  .container .profile-data .info .data
-  {
-    width: 100%;
-    padding: 0;
-  }
-}
