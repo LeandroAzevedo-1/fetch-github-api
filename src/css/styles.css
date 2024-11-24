@@ -5,25 +5,21 @@
   padding: 0;
   font-weight: 300;
 }
-
 img {
   max-width: 100%;
 }
-
 body {
   background-color:#24292e;
   font-family: "Kumbh Sans", sans-serif;  
   text-align: center;    
   padding-bottom: 100px;
 }
-
 main {
   display: flex;  
   justify-content: center;
   flex-direction: column;
   padding: 50px 0 0;      
 }
-
 .devicon-github-original{
   font-size: 60px;
   margin-bottom: 30px;
@@ -31,12 +27,12 @@ main {
 }
 
 .section{
-  padding: 70px 0;
+  padding: 40px 0;
 }
 
 .container {
-  width: 60%; /* se for uma tela menor que 980px vai se adaptar a 70% */
-  max-width: 960px; /* quando chegar em 980px para de aumentar */
+  width: 60%;
+  max-width: 960px; 
   box-shadow: rgba(0, 0, 0, 0.3) 0px 25px 50px -12px;
   background-color: #fff;
   display: flex;
@@ -46,14 +42,12 @@ main {
   padding: 30px;
   margin: 0 auto;
 }
-
 .container header {
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 30px 0;
 }
-
 .container header h2 {
   font-size: 20px;
   font-weight: 700;
@@ -106,7 +100,7 @@ main {
 .container .profile-data .info img{
   width: 50%;
   border-radius: 50%;
-  border: 10px solid hotpink;
+  border: 5px solid #8b2a8f;
 }
 
 .container .profile-data .info h1{
@@ -120,6 +114,44 @@ main {
   font-weight: 400;
   line-height: 23px;
 }
+/*  */
+.container .profile-data .info .follow{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 274px;
+  margin: 0 auto;
+  padding-top: 40px;
+  transition: 0.3s ease-in-out;
+}
+.container .profile-data .info .follow .follow-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .profile-data .info .follow h3{
+  background-color: #5b1d5e;
+  border-radius: 5px;
+  color: #fff;
+  width: 100%;
+  font-weight: 700;
+  padding: 5px;
+  margin-top: 10px;
+}
+.container .profile-data .info .follow h3:hover{
+  opacity: 0.8;
+}
+
+.container .profile-data .info .follow .following{
+  background-color: #5b1d5e;
+}
+
+.container .profile-data .info .follow .following:hover{
+  background-color: #a24fa5;
+ 
+}
+
 .error {
   color: #ff0000;
 }
@@ -150,6 +182,12 @@ main {
   color: #fff
 }
 
+.Repository-information{
+  background-color: #8953e0;
+  border-radius: 3px;
+  margin: 3px;
+  padding: 2px;
+}
 .container .profile-data.hide{
   display: none;
 }
